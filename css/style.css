@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFD92A;
+}
+
+.geoBlock {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+}
+
+.L1 {
+    background-image: url(../images/Box\ L-1.svg)
+}
+.C1 {
+    background-image: url(../images/Box\ C-1.svg)
+}
+.R1 {
+    background-image: url(../images/Box\ R-1.svg)
+}
+.L2 {
+    background-image: url(../images/Box\ L-2.svg)
+}
+.C2 {
+    background-image: url(../images/Box\ C-2.svg)
+}
+.R2 {
+    background-image: url(../images/Box\ R-2.svg)
+}
+.L3 {
+    background-image: url(../images/Box\ L-3.svg)
+}
+.C3 {
+    background-image: url(../images/Box\ C-3.svg)
+}
+.R3 {
+    background-image: url(../images/Box\ R-3.svg)
+}
+.rowContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
