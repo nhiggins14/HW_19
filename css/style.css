@@ -23,6 +23,11 @@ body {
     top: -60vh;
     height: 50vh;
     position: absolute;
+    
+
+
+
+
    
 
 }
@@ -46,14 +51,11 @@ body {
     width: 350px;
 }
 div.blueHover:hover {
-    background-color: blue;
+    background-color: #4C57FF;
     color: white;
     cursor: pointer;
 }
 
-.hoverReveal:hover {
-    display: none;
-}
 
 
 .gif {
@@ -64,10 +66,11 @@ div.blueHover:hover {
     width: 350px;
 }
 
+.rockGuitar {
 
-.R2:hover {
-    
 }
+
+
 
 
 
@@ -78,30 +81,35 @@ div.blueHover:hover {
 
 .C1 {
     background-image: url(../images/Box\ C-1.svg);
-    
 }
 .R1 {
     background-image: url(../images/Box\ R-1.svg);
-  
+
 }
 .L2 {
     background-image: url(../images/Box\ L-2.svg);
+    
 }
 .C2 {
     background-image: url(../images/Box\ C-2.svg);
+ 
    
 }
 .R2 {
     background-image: url(../images/Box\ R-2.svg);
+   
 }
 .L3 {
     background-image: url(../images/Box\ L-3.svg);
+   
 }
 .C3 {
     background-image: url(../images/Box\ C-3.svg);
+   
 }
 .R3 {
     background-image: url(../images/Box\ R-3.svg);
+  
 }
 
 
@@ -200,7 +208,7 @@ br {
     flex-direction: column; */
     margin-left: auto;
     margin-right: auto;
-    background-color: blue;
+    background-color: #4C57FF;
     color: white;
     cursor: pointer;
     width: 70%;
@@ -211,5 +219,125 @@ br {
 
 .gifUnleashed {
  visibility: visible;
+
+}
+
+
+
+/* Post-java*/
+
+
+
+.rowContainerActive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8% 0;
+}
+.geoBlockActive {
+    background-size: cover;
+    height: 90vh;
+    width: 90vw;
+    /* background-color: #4C57FF; */
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border-bottom: 10px solid black; 
+}
+
+.geoAciveCaseStudy {
+    background-size: cover;
+    height: 500vh;
+    width: 90vw;
+    /* background-color: #4C57FF; */
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border: 10px solid black;   
+}
+
+.titleActive {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    position: relative;
+    width: 16%;
+    margin: 3% 8% 5% 2%;
+   
+}
+
+.boxText {
+    display: flex;
+    /* color: white; */
+    color: black;
+    position: relative;
+    padding: 5%;
+    text-align: left;
+    width: 85%;
+    left: 0;
+    height: 100%;
+    /* background-color: #4C57FF; */
+    background-color: #FFD92A;
+    font-size: 2.33em;
+    border-right: 10px solid black;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+p.boxText {
+    display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .geoBlock {
+        height: 248px;
+        width: 270px;
+    }
+    .gif {
+        top: -250px;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+
+    body {
+        width: 100%;
+    }
+
+
+.rowContainer {
+    flex-direction: column;
+    margin: 0;
+    justify-content: center; 
+}
+.geoBlock {
+    height: 505px;
+    width: 550px;
+    margin: 4% 0;
+}
+#abc {
+    margin-left: 63%;
+}
+.nat {
+    float: left;
+    margin-left: 2%;
+}
+.hig {
+    margin-right: 5%;
+}
+}
+
+@media only screen and (max-width: 768px) {
+body {
+    width: 106vw;
+}
+
+
 
 }
