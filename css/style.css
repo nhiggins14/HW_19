@@ -1,12 +1,36 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFD92A;
+    color: black;
 
 }
+
+
+.colorBlock {
+    background-color: #FFD92A;
+    z-index: -50;
+    display: block;
+    height: 3vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: none;
+}
+
+.heroKick {
+    left: 0%;
+    top: -60vh;
+    height: 50vh;
+    position: absolute;
+   
+
+}
+
 .rowContainer {
     display: flex;
     justify-content: space-evenly;
-    margin: 5% 0;
+    margin: 8% 0;
 }
 .block {
     display: flex;
@@ -21,11 +45,29 @@ body {
     height: 320px;
     width: 350px;
 }
-.geoBlock:hover {
+div.blueHover:hover {
     background-color: blue;
     color: white;
+    cursor: pointer;
 }
 
+.hoverReveal:hover {
+    display: none;
+}
+
+
+.gif {
+  
+    z-index: -100;
+   
+    height: 320px;
+    width: 350px;
+}
+
+
+.R2:hover {
+    
+}
 
 
 
@@ -63,7 +105,7 @@ body {
 }
 
 
-/* @keyframes zoomIn {
+ /* @keyframes zoomIn {
     from {
         width: 0vw;
       }
@@ -83,29 +125,35 @@ body {
         width: 20vw;
       }
     } */
+
 h2 {
     text-align: right;
     margin-top: 10%;
     margin-left: 40%;
 }
 
+br {
+    height: 1px;
+}
+
 .leftBox {
     
-    margin-right: 26%;
+    margin-right: 20%;
+    padding: 1%;
 }
 .centerBox {
-    margin-top: 10%;
-    margin-right: 40%;
+    margin-right: 28%;
+    padding: 1%;
 }
 .rightBox {
-    margin-top: 10%;
-    margin-right: 40%;
+    margin-right: 30%;
+    padding: 1%;
 }
 .row1 {
-    margin-top: 32%;
+    margin-top: 35%;
 }
 .row3 {
-    margin-top: 4%;
+    margin-top: 12%;
 }
 
 
@@ -115,11 +163,12 @@ h2 {
 }
 .nat {
     float: left;
-    margin-left: 5%;
+    margin-left: 9%;
+    margin-top: 1%;
 }
 .hig {
     float: right;
-    margin-right: 5%;
+    margin-right: 9%;
 }
 .nameContainer {
     display: flex;
@@ -127,14 +176,40 @@ h2 {
 }
 #hi {
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 8px;
 }
 #abc {
     letter-spacing: 5px;
     font-weight: 200;
     position: relative;
-    /* left: 34%; */
+    margin-left: 69%;
+    margin-top: 4%;
     font-size: 15px;
-    overflow: hidden;
+
+}
+.expand {
+    width: 1500px;
+
+    height: 1500px;
+    margin-left: 5%;
+}
+.expandBlock {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 70%;
+    z-index: 1000;
+    height: 100vh;
+    position: absolute;
+}
+
+.gifUnleashed {
+ visibility: visible;
+
 }
