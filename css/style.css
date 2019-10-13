@@ -4,8 +4,6 @@ body {
     color: black;
 
 }
-
-
 .colorBlock {
     background-color: #FFD92A;
     z-index: -50;
@@ -23,13 +21,6 @@ body {
     top: -60vh;
     height: 50vh;
     position: absolute;
-    
-
-
-
-
-   
-
 }
 
 .rowContainer {
@@ -56,8 +47,6 @@ div.blueHover:hover {
     cursor: pointer;
 }
 
-
-
 .gif {
   
     z-index: -100;
@@ -65,12 +54,6 @@ div.blueHover:hover {
     height: 320px;
     width: 350px;
 }
-
-.rockGuitar {
-
-}
-
-
 
 
 
@@ -243,6 +226,7 @@ br {
     flex-direction: row;
     overflow: hidden;
     border-bottom: 10px solid black; 
+    background-color:  #4C57FF;
 }
 
 .geoAciveCaseStudy {
@@ -254,6 +238,8 @@ br {
     flex-direction: row;
     overflow: hidden;
     border: 10px solid black;   
+    background-color:  #FFD92A;
+
 }
 
 .titleActive {
@@ -262,9 +248,18 @@ br {
     font-weight: bolder;
     position: relative;
     width: 16%;
-    margin: 3% 8% 5% 2%;
-   
+    margin: 6% 3% 5% 13%;
 }
+.titleBotActive {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    position: relative;
+    width: 16%;
+    margin: 3% 0% 0% 0%;
+}
+
+
 
 .boxText {
     display: flex;
@@ -291,7 +286,13 @@ p.boxText {
 }
 
 
+@media only screen and (max-width: 1400px) {
+    .heroKick {
+ 
+        top: -72vh;
 
+}
+}
 
 
 @media only screen and (max-width: 1024px) {
@@ -335,9 +336,75 @@ p.boxText {
 
 @media only screen and (max-width: 768px) {
 body {
-    width: 106vw;
+    width: 112vw;
+}
+.colorBlock {
+    width: 112vw;
+}
+.gif {
+    top: -150px;
+}
+.heroKick {
+    margin-left: 7%;
+}
+.nat {
+    float: left;
+    margin-left: 12%;
+    font-size: 125px;
+}
+.hig {
+    font-size: 125px;
+    margin-right: 9%;
+}
+.geoBlock {
+    height: 449px;
+    width: 490px;
+    margin: 7% 0;
+}
+#abc {
+    margin-left: 54%;
 }
 
-
+h2 {
+    font-size: 50px;
+}
 
 }
+@media only screen and (max-width: 375px) {
+    body {
+        width: 180vw;
+    }
+    .colorBlock {
+        width: 180vw;
+        /* height: 3vh; */
+    }
+    .gif {
+        top: 10px;
+    }
+    .heroKick {
+        margin-left: 42%;
+    }
+    .nat {
+        margin-left: 10%;
+        font-size: 108px;
+        margin-top: 2%;
+    }
+    .hig {
+        font-size: 108px;
+        margin-right: 18%;
+    }
+    .geoBlock {
+        height: 379px;
+        width: 414px;
+        margin: 8% 0;
+    }
+    #abc {
+        margin-left: 26%;
+        margin-top: 11%;
+    }
+    
+    h2 {
+        font-size: 50px;
+    }
+  
+    }
