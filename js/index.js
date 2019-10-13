@@ -80,10 +80,12 @@ $(document).on('click','.geoBlockActive',function() {
 $(document).on('click','.L3',function() {
     $('.C3').css('display','none'),
     $('.R3').css('display','none'),
+    $('.R3').removeClass('blueHover'),
     // $('.L3').css('background-image','none'),
     $('#rowCon3').addClass('rowContainerActive'),
     $('.L3').addClass('geoAciveCaseStudy'),
-    $('.L3Title').addClass('titleBotActive')
+    $('.L3Title').addClass('titleBotActive'),
+    $('.caseStudyText').css('display','flex')
 }
 );
 
@@ -93,7 +95,8 @@ $(document).on('click','.geoAciveCaseStudy',function() {
     // $('.L3').css(' background-image', 'url(../images/Box\ L-3.svg)'),
     $('#rowCon3').removeClass('rowContainerActive'),
     $('.L3').removeClass('geoAciveCaseStudy'),
-    $('.L3Title').removeClass('titleBotActive')
+    $('.L3Title').removeClass('titleBotActive'),
+    $('.caseStudyText').css('display','none')
 });
 
 
@@ -135,4 +138,53 @@ $(document).on('click','.geoAciveCaseStudy',function() {
     $('.R3').removeClass('geoAciveCaseStudy'),
     $('.R3Title').removeClass('titleBotActive')
 });
+
+
+
+
+
+// Row 2 Gif Reveals
+
+$(document).on('click','.L2',function() {
+    $('.gif1').css('display','block'),
+   $('.L2').addClass('gifActive')
+}
+);
+
+
+$(document).on('click','.gifActive',function() {
+    $('.gif1').css('display','none'),
+    $('.L2').removeClass('gifActive')
+}
+);
+
+
+
+
+$(document).on('click','.C2',function() {
+    $('.gif2').css('display','block'),
+   $('.C2').addClass('gifActive')
+}
+);
+
+
+$(document).on('click','.gifActive',function() {
+    $('.gif2').css('display','none'),
+    $('.C2').removeClass('gifActive')
+}
+);
+
+$(document).on('click','.R2',function() {
+    $('.gif1').css('display','block'),
+   $('.R2').addClass('gifActive')
+}
+);
+
+
+$(document).on('click','.gifActive',function() {
+    $('.gif1').css('display','none'),
+    $('.R2').removeClass('gifActive')
+}
+);
+
 
